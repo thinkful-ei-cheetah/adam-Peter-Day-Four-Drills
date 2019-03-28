@@ -10,19 +10,7 @@ function main () {
         
         $('.hero img').attr('src', imgSrc).attr('alt', imgAlt);
 
-        // $('hero img').attr({'src' : imgSrc}, {'alt' : imgAlt});
     });
 }
  $(main);
-
-
-
-// function fizzBuzzer(num){
-//     if (num % 25 === 0) return 'fizzbuzz';
-//     if (num % 5 === 0) return '';
-//     if (num % 3 === 0) return '';
-// }
-
-// function buzzTo(count)
-
 
